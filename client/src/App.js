@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import React from 'react';
+import FetchScore from './FetchScore';
 
 
 class App extends React.Component {
@@ -27,6 +28,7 @@ class App extends React.Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p>{ this.state.apiResponse }</p>
           <p>This is below the API Repsonse</p>
+          <FetchScore />
           <a
             className="App-link"
             href="https://reactjs.org"

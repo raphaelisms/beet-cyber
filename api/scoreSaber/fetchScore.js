@@ -21,4 +21,6 @@ const fetchScore = async (id) => {
     }
 }
 
+// next step is to turn this into our general purpose API interface. After that, add our own DB, try to give their API a break;. 
+
 exports.fetchScore = () => fetchScore();
